@@ -4,7 +4,7 @@
 	"private": true,
 	"devDependencies": {
 		"autoprefixer": "7.1.0",
-		"babel-core": "6.24.1",
+		"babel-core": "^6.26.3",
 		"babel-eslint": "7.2.3",
 		"babel-jest": "20.0.3",
 		"babel-loader": "7.0.0",
@@ -20,7 +20,7 @@
 		"eslint-config-react-app": "^1.0.4",
 		"eslint-loader": "1.7.1",
 		"eslint-plugin-flowtype": "2.33.0",
-		"eslint-plugin-import": "2.2.0",
+		"eslint-plugin-import": "^2.17.2",
 		"eslint-plugin-jsx-a11y": "5.0.3",
 		"eslint-plugin-react": "7.0.1",
 		"extract-text-webpack-plugin": "2.1.0",
@@ -44,7 +44,7 @@
 	},
 	"dependencies": {
 		"aws-mqtt-client": "0.0.5",
-		"mobx": "^3.1.13",
+		"mobx": "^3.1.13-fixcra",
 		"mobx-react": "^4.2.1",
 		"react": "^15.5.4",
 		"react-dom": "^15.5.4",
